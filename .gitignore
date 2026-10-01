@@ -1,0 +1,3 @@
+# Local full driver backups include machine-specific data.
+*.wacomprefs
+*.wacomxs
