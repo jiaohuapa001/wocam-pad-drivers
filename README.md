@@ -1,3 +1,4 @@
+# 本仓库由codex维护
 # 轻笔 / WacomLite 0.3
 
 CTL-472 轻量控制面板，提供独立预设、配置恢复与笔事件诊断。需要 Windows 10/11 x64、.NET Framework 4.x 和兼容的官方 Wacom 驱动。
