@@ -1,3 +1,7 @@
 # Local full driver backups include machine-specific data.
 *.wacomprefs
 *.wacomxs
+dist/
+/WacomLite.exe
+*.lnk
+data/

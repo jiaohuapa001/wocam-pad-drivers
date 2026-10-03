@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "name": "CTL-472 快写",
+  "vendorId": "056A",
+  "productId": "037A",
+  "referenceMaximum": 2047,
+  "press": 512,
+  "release": 491,
+  "pressureCurve": [409, 0, 1739, 266, 2047, 2047],
+  "doubleClick": false,
+  "windowsInk": true
+}
