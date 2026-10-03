@@ -61,7 +61,7 @@ jobs:
             exit 0
           }
           $readme = Get-Content -Raw -Encoding UTF8 README.md
-          $notes = [regex]::Match($readme, '(?s)## v' + [regex]::Escape($version) + ' 更新\r?\n(.*?)(?=\r?\n## |\z)')
+          $notes = [regex]::Match($readme, '(?s)## v' + [regex]::Escape($version) + '[^\r\n]*\r?\n(.*?)(?=\r?\n## |\z)')
           if (-not $notes.Success) { throw 'Matching release notes missing from README' }
           $notes.Groups[1].Value.Trim() | Set-Content -Encoding UTF8 data\build\release-notes.txt
           $asset = "data\build\WacomLite-$tag-win-x64.zip"
